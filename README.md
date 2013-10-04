@@ -12,13 +12,9 @@ Configuration
 Configuration is done statically (compile-time) through "sinetd.h".
 
 1) SINETD_DEBUG - a compile switch to enable or disable debug logs
-
 2) SINETD_DAEMONIZE - a compile switch to make the program run in the foreground or in the background
-
 3) SINETD_PID_FILE_PATH - process id file path
-
 4) SINETD_LOG_FILE_PATH - log file path
-
 5) SINETD_SERVICES - array of services that sinetd will manage
     5.a) port - service port number
     5.b) sock_type - type of socket (stream, datagram, etc)
