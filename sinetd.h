@@ -29,7 +29,7 @@
 
 #ifndef SINETD_H_
 #define SINETD_H_
-rmi
+
 #ifdef DEBUG
 #define SINETD_DEBUG			1
 #else
