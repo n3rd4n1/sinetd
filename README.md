@@ -32,3 +32,7 @@ Testing
 -------
 
 In the current configuration, sinetd is configured to handle connections from ports 5000 to 5003, and execute "test" when a connection is received. After running sinetd, connections can be tested using telnet or similar tools. "test" will echo to stdout/logfile whatever is sent remotely. When "test" receives a "quit" message, the connection will be closed.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/n3rd4n1/sinetd/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
