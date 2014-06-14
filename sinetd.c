@@ -381,7 +381,7 @@ int main(int argc, char **argv)
 					continue;
 
 				case 0: // child
-					for(j = STDIN_FILENO - 1; j++ < STDERR_FILENO; j++)
+					for(j = STDIN_FILENO - 1; j++ < STDERR_FILENO; )
 					{
 						if(dup2(sock_fd, j) == -1)
 							break;
